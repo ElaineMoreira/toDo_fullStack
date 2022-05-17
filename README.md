@@ -1,5 +1,8 @@
 # toDo
 
+## Organização do projeto(Board de tarefas)
+<a>https://jamboard.google.com/d/13h9VmlA8CDZ7d-1lrBX5hW_3CH3cH50zmE5j2ZMU1L8/edit?usp=sharing</a>
+
 ## O Desafio
 ## Contexto:
 </br>
