@@ -3,7 +3,8 @@
         "browser": true,
         "commonjs": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "extends": [
         "eslint:recommended",
@@ -16,7 +17,7 @@
         "ecmaVersion": "latest"
     },
     "plugins": [
-        "react"
+        "react", "import", "jsx-a11y"
     ],
     "rules": {
         "indent": [
@@ -34,6 +35,15 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [".js", ".jsx"]
+            }
+        ],
+        "global-require": "off",
+        "import/prefer-default-export": "off",
+        "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
     }
 }
