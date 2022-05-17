@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ElaineMoreira/toDo_fullStack/issues"
   },
-  "homepage": "https://github.com/ElaineMoreira/toDo_fullStack#readme"
+  "homepage": "https://github.com/ElaineMoreira/toDo_fullStack#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
 }
