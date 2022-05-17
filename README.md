@@ -54,3 +54,7 @@ Nosso time irá avaliar a sua entrega olhando, principalmente, para os itens aba
 6. Ter um linter configurado;</br>
 7. O projeto deverá ser entregue via repositório pessoal no GitHub (utilize boas práticas de criação/nomeação de branches, além de mensagens de commits bem descritas e commits com um escopo nítido).</br>
 Boa sorte!# toDo_fullStack
+
+## Referencias
+
+1. para configura linter - Rocketseat - https://www.youtube.com/watch?v=TI4v4Y8yRjw</br>
