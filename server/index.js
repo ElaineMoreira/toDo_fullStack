@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const routes = require("../server/routes/routes");
 require("dotenv").config();
 
 const app = express();
@@ -19,6 +20,8 @@ mongoose.connect(`${ SENHA_SECRETA_ENV }`)
 	.catch((error) => {
 		console.log("Erro ao conectar no banco de dados!", error.message);
 	});
+  
+app.use(routes);
 
 app.listen(PORT, () =>
 	console.log(`Servidor da Elaine Online na porta ${PORT}!`)
