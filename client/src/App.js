@@ -6,6 +6,13 @@ function App() {
     <div className="App">
       <div>
         <h1>To Do List</h1>
+        <div>
+          <input/>
+        </div>
+      </div>
+
+      <div>
+        {/* {criar Item como componente} */}
       </div>
 
     </div>
