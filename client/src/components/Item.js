@@ -1,7 +1,7 @@
 /** https://blade-ui-kit.com/blade-icons/ri-pencil-fill */
 import React from "React";
 
-function Item() {
+export default function Item() {
 	return (
 		<div className="item">
 			<div className="text">text</div>
@@ -12,5 +12,3 @@ function Item() {
 		</div>
 	);
 }
-
-export default Item;

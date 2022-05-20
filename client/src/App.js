@@ -1,7 +1,9 @@
 import React from "react";
+// import Item from "./components/Item";
 import "./App.css";
 
 function App() {
+	// const [text, setText] = useState("");
 	return (
 		<div className="App">
 			<div className="container">
@@ -12,9 +14,9 @@ function App() {
 						placeHolder="Digite sua tarefa aqui"/>
 				</div>
 			</div>
-
+			{}
 			<div>
-				{/* <Item /> */}
+
 			</div>
 
 		</div>
