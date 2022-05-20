@@ -4,13 +4,17 @@
 }
 
 .container{
-  max-width: 600px;
-  margin: 120px;
+  max-width: 400px;
+  margin: auto;
   padding: 0 1rem;
+  border: none;
+  border-radius: 2px;
+  background-image: url("https://img.lovepik.com/background/20211022/medium/lovepik-pink-watercolor-gradient-background-image_401720152.jpg");
 }
 
 h1{
   text-align: center;
+  color: palevioletred;
 }
 
 .top{
@@ -23,7 +27,7 @@ h1{
 input{
   border: none;
   outline: none;
-  width: 400px;
+  width: 200px;
   padding: 0 0.5rem;
   border-bottom: 1px solid #000;
 }
