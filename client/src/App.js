@@ -4,15 +4,17 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<div>
+			<div className="container">
 				<h1>To Do List</h1>
-				<div>
-					<input/>
+				<div className="top">
+					<input
+						type="text"
+						placeHolder="Digite sua tarefa aqui"/>
 				</div>
 			</div>
 
 			<div>
-				{/* {criar Item como componente} */}
+				{/* <Item /> */}
 			</div>
 
 		</div>
