@@ -2,9 +2,11 @@
 import React from "React";
 
 function Item() {
-  return(
-    <div>
-      
-    </div>
-  )
+	return(
+		<div>
+
+		</div>
+	);
 }
+
+export default Item;
